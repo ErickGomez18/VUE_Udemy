@@ -98,3 +98,69 @@ onMounted(() => {
     obtenerLibros()
 })
 </script>
+
+<style scoped>
+.contenedor {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.formulario {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #198754;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td button {
+    margin-right: 8px;
+}
+
+td button:last-child {
+    background-color: #dc3545;
+}
+</style>
