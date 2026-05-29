@@ -1,16 +1,17 @@
 {
   "libros": [
     {
-      "id": 1,
+      "id": "1",
       "titulo": "El Principito",
       "autor": "Antoine de Saint-Exupéry",
       "precio": 150
     },
     {
-      "id": 2,
-      "titulo": "Don Quijote de la Mancha",
-      "autor": "Miguel de Cervantes",
-      "precio": 220
+      "titulo": "Harry Potter y las reliquias de la muerte parte 1",
+      "autor": "J.K Rowling",
+      "precio": 300,
+      "id": "ZnDCOGi_E9U"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
